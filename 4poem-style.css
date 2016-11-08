@@ -1,0 +1,139 @@
+body {
+  background-size:cover;
+  background-color:#333333;
+  background-repeat:no-repeat;
+}
+
+#poem1BG {
+  content: "";
+  background-image: url("images/snowy.jpg");
+  background-size:cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#poem2BG {
+  content: "";
+  background-image: url("images/wasteland.jpg");
+  background-size:cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#poem3BG {
+  content: "";
+  background-image: url("images/stars.jpg");
+  background-size:cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#poem4BG {
+  content: "";
+  background-image: url("images/baseball.jpg");
+  background-size:cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#poem {
+  width:90%;
+  margin-top:15%;
+  margin:auto;
+}
+
+#shuffler {
+  width:100%;
+  margin-top:15%;
+  margin:0 auto;
+}
+
+button {
+  background-color:#555555;
+  color:#999999;
+  border:none;
+  font-size:100%;
+  align-items: center;
+  box-sizing: inherit;
+  display:block;
+}
+
+button.poetryBlock {
+  padding-top:15px;
+  padding-bottom:15px;
+  opacity:0.8;
+}
+
+h1 {
+  font-family: Georgia;
+  text-align: center;
+}
+
+.poetryBlock {
+  width:85%;
+  margin:0 auto;
+  margin-top:20px;
+  padding:5px;
+}
+
+.poetry1 {
+  background-color:rgba(239, 239, 239,0.2);
+  /*Robert Frost's Stopping by Woods on a Snowy Evening*/
+}
+
+.poetry2 {
+  background-color:rgba(240, 206, 120,0.2);
+  /* TS Eliot's The Waste Land*/
+}
+
+.poetry3 {
+  background-color:rgba(145, 92, 193,0.2);
+  /*Sarah William's The Old Astronomer*/
+}
+
+.poetry4 {
+  background-color:rgba(25, 120, 32,0.2);
+  /*Whitman's Baseball Quote*/
+}
+
+.poetryBlock p {
+  font-family:Georgia;
+  font-style: italic;
+  text-align:center;
+  color:rgb(255,255,255);
+  opacity:0.3;
+  line-height:8px;
+}
+
+h4 {
+  color:rgba(255,255,255,0.2);
+  font-family:sans-serif;
+  font-size:70%;
+  font-style:normal;
+  text-align: center;
+}
+
+p.rightPlace {
+  color:rgb(255,255,255);
+  opacity:1;
+}
